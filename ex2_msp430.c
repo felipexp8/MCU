@@ -137,7 +137,7 @@ __interrupt void USCIAB0TX_ISR(void)
 		  {
 			  UCB0CTL1 |= UCTXSTP;                    // I2C STOP
 			  IFG2 &= ~UCB0TXIFG;                     // Limpa flags
-			  __bic_SR_register_on_exit(CPUOFF);      // Sai do moto LP
+			  __bic_SR_register_on_exit(CPUOFF);      // Sai do modo LP
 		  }
 	}
 }
