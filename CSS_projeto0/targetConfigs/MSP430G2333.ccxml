@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+    <configuration XML_version="1.2" id="configuration_0">
+        <instance XML_version="1.2" desc="Data Snapshot Viewer" href="connections/DataSnapshotViewer.xml" id="Data Snapshot Viewer" xml="DataSnapshotViewer.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="Data Snapshot Viewer">
+            <instance XML_version="1.2" href="drivers/DataSnapshotDecoder_MSP430.xml" id="drivers" xml="DataSnapshotDecoder_MSP430.xml" xmlpath="drivers"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="MSP430G2333" href="devices/MSP430G2333.xml" id="MSP430G2333" xml="MSP430G2333.xml" xmlpath="devices"/>
+            </platform>
+        </connection>
+    </configuration>
+</configurations>
